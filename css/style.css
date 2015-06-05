@@ -61,7 +61,7 @@ h1 span,
 h2 span,
 h3 span,
 h4 span {
-	color: #D4001F;
+	color: #339BEB;
 }
 .text-colored {
 	color: #55acee;
@@ -233,10 +233,10 @@ blockquote {
 	position: relative;
 }
 .bg-image-1 {
-	background: url("../images/bg-image-1.jpg") 50% 0px no-repeat;
+	background: url("../images/baby.jpg") 50% 0px no-repeat;
 }
 .bg-image-2 {
-	background: url("../images/bg-image-2.jpg") 50% 0px no-repeat;
+	background: url("../images/rsvp.jpg") 50% 0px no-repeat;
 }
 
 /* Misc
@@ -549,6 +549,7 @@ textarea {
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+
 .logo,
 .site-name-and-slogan {
 	float: left;
@@ -716,4 +717,27 @@ textarea {
 	filter: alpha(opacity=100);
 	-webkit-transform: scale(1);
 	transform: scale(1);
+}
+
+.rsvp-list {
+    margin-top: 15px;
+}
+
+.rsvp-icon {
+    text-align: center;
+}
+
+.rsvp-text {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.registry-section {
+    text-align: center;
+    font-size: 25px;
+    margin: 100px 100px;
+}
+
+footer {
+    padding-top: 50px;
 }
